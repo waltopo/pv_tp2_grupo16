@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+    <script>
+        const entrada = prompt("Ingresá números separados por comas (ej: 1,2,3,4)");
+
+        const duplicar = (numeros) => {
+            return numeros.map(numero => numero * 2);
+        };
+
+        const arregloNumeros= entrada.split(",").map(num => parseFloat(num));
+
+        // Obtenemos el arreglo duplicado
+        const arregloNumerosDuplicados= duplicar(arregloNumeros);
+
+        // Mostramos el resultado
+        alert("Numeros: " + arregloNumeros.join(", ")+"\nNum x2:  " + arregloNumerosDuplicados.join(", "));
+        
+    </script>
+</head>
+<body>
+    <p>Ejercicio 14</p>
+</body>
+</html>
