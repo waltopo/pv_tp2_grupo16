@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de Combustible</title>
+    <script>
+        //calcula el consumo de combusticlo por kilometro
+        const calcularConsumoDeCombustiblePorKilometro = () => {
+            const km = parseFloat(prompt("Ingresar el número de kilómetros recorridos:"));
+            const litros = parseFloat(prompt("Ingresar el número de litros de combustible consumidos:"));
+            //verifica que el kilometraje no sea 0 si es cero mustro un mesnaje que el kimtraje tien que ser mayor a cero
+            if (km > 0) {
+                const consumoPorKm = litros / km;
+                alert(`El consumo de combustible es de ${consumoPorKm.toFixed(2)} litros por kilómetro.`);
+            } else {
+                alert("El número de kilómetros debe ser mayor que cero.");
+            }
+        };
+
+        window.onload = calcularConsumoDeCombustiblePorKilometro;
+    </script>
+</head>
+<body>
+    <H1>Ejercicio 11</H1>
+</body>
+</html>
