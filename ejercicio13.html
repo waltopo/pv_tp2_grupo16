@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13</title>
+    <script>
+        const mostrarArreglo = (arreglo) => {
+            arreglo.forEach((elemento) => {
+                console.log(elemento); // Imprime cada elemento en una línea
+            });
+        };
+
+        // Solicitar al usuario que ingrese números separados por comas
+        const input = prompt("Ingresa un conjunto de números separados por comas:");
+        const numeros = input.split(",").map(num => parseFloat(num.trim())); // Convertir a arreglo numérico
+
+        mostrarArreglo(numeros); // Llamar a la función con el arreglo numérico
+    </script>
+</head>
+<body>
+</body>
+</html>
