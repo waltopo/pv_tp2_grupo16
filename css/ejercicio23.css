@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.opciones {
+    margin-bottom: 20px;
+}
+.resultado {
+    padding: 10px;
+    border: 1px solid black;
+    min-height: 40px;
+    transition: background-color 0.3s;
+}
