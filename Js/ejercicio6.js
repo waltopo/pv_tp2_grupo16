@@ -1,4 +1,4 @@
-const edades = [22, 30, 18, 25, 40, 35, 28, 33];
+const edades = [10, 5, 18, 25, 40, 35, 28, 33]; //cambiar estos numeros para probar si esque sirve
 
 const calcularPromedioEdades = (array) => {
     const suma = array.reduce((acumulador, edad) => acumulador + edad, 0);
