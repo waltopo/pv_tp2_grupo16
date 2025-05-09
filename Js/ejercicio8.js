@@ -9,4 +9,4 @@ const calcularMayor = (numero1, numero2) => {//calcula el numero mayor
 };
 
 // Invocar la función con diferentes números
-calcularMayor(10, 20); // Cambia estos valores para probar
+calcularMayor(10, 10); // Cambia estos valores para probar

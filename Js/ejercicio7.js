@@ -10,4 +10,4 @@ nombres.forEach( (x) => {
     }
 });
 
-console.log("El nombre mas largo es "+ nombreMaxLength);
+console.log("El nombre mas largo es: "+ nombreMaxLength);
